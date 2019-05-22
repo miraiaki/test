@@ -1,0 +1,114 @@
+
+.listinfo_main h1{
+    font-size: .34rem;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.listinfo_main header{
+    padding: .3rem;
+    background: rgba(0,0,0,.8);
+    height: 5.30rem;
+}
+.list_header{
+    text-align: center;
+    height: .7rem;
+}
+.listHead{
+    display: flex;
+}
+.listImg {
+    margin-right: .3rem;
+}
+.listImg img{
+    width: 2.81rem;
+    height: 2.81rem;
+}
+.listTitle{
+    width: 4rem;
+}
+.listTitle h2{
+    width: 80%;
+    height:1rem;
+    font-size: .34rem;
+    line-height: .4rem;
+    color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    margin: 0;
+}
+.listTitle p{
+    font-size: .26rem;
+    color: white;
+}
+.collect{
+    margin: 0;
+    /* padding: .34rem .35rem 0 .35rem; */
+    padding: 0;
+    box-sizing: border-box;
+    line-height: .5rem !important;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.collect p{
+    font-size: .18rem;
+    margin: 0;
+    padding: 0;
+    color: #b3b3b3;
+}
+.first{
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    background: url('../img/b/a14.png');
+    background-size: 100%;
+}
+/* 播放全部 */
+.content{
+    padding: .3rem 0 .3rem .2rem;
+}
+.playMore{
+    font-size: .3rem;
+    color: #000;
+    margin: 0;
+    font-weight: bold;
+}
+.playMore span{
+    font-size: .24rem;
+    color: #999 !important;
+}
+.more{
+    font-size: .26rem;
+    color: #666;
+}
+.playTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .25rem;
+}
+.musicList{
+    padding-left: .3rem;
+    margin-top: .35rem;
+}
+.musicList li{
+    font-size: .32rem;
+    list-style: decimal;
+    padding-bottom: .2rem;
+    padding-top:.2rem;
+    margin-bottom: .2rem;
+    border-top: 1px solid #e3e3e3;
+}
+.musicList li:last-child{
+    border-bottom: 1px solid #e3e3e3;
+}
+.musicList p{
+    margin: 0;
+}
+.musicName{
+    font-weight: bold;
+    color: #000;
+}

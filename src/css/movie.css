@@ -1,0 +1,96 @@
+ul{
+    padding: 0;
+    margin: 0;
+}
+.videoBox{
+    line-height: 0;
+    margin-bottom: 1.5rem;
+}
+.videoBox i{
+    display: inline-block;
+    width: .45rem;
+    height: .45rem;
+}
+.videoBox li{
+    position: relative;
+    overflow-x: hidden;
+}
+.video{
+    height: 4.23rem;
+    border:1px solid black;
+    background: black;
+}
+.video video{
+    width: 100%;
+    height: 100%;
+}
+.likeIcon{
+    background: url('http://127.0.0.1:3000/img/music/a_7.png');
+    background-size: 100%;
+}
+.commentIcon{
+    background: url('http://127.0.0.1:3000/img/music/a_2.png');
+    background-size: 100%;
+}
+.videoMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .28rem .3rem .4rem .2rem;
+    box-sizing: border-box;
+}
+.playIcon{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    top:3.5rem;
+    left: 0;
+    padding-left: .2rem;
+}
+.playIcon span{
+    font-size: .18rem;
+    color: white;
+}
+.playCount i{
+    display: inline-block;
+    width: .28rem;
+    height: .16rem;
+    background: url('http://127.0.0.1:3000/img/music/videoIcon.png');
+    background-size: 100%;
+}
+.playTime{
+    position: absolute;
+    right: -6.5rem;
+    bottom: 0;
+}
+.playTime i{
+    display: inline-block;
+    width: .28rem;
+    height: .28rem;
+    background: url('http://127.0.0.1:3000/img/music/n8.png');
+    background-size: 100%;
+}
+.videoTitle{
+    font-size: .3rem;
+    color: #333;
+    width: 3.9rem;
+    height: .75rem;
+    line-height: .4rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.like{
+    font-size: .16rem;
+    color: #999;
+    line-height: .3rem;
+    text-align: center;
+}
+.videoInfo{
+    display: inline-block;
+    width: .36rem;
+    height: .06rem;
+    background: url('http://127.0.0.1:3000/img/music/info_03.png');
+    background-size: 100%;
+}

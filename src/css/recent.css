@@ -1,0 +1,59 @@
+.recentIcon{
+    display: inline-block;
+    width: .43rem;
+    height: .43rem;
+    background: url('http://127.0.0.1:3000/img/music/my_03.png');
+    background-size: 100%;
+}
+.recent p{
+    font-size: .3rem;
+    color: white;
+    font-weight: bold;
+}
+.recent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d43b33;
+    padding: .3rem .36rem .2rem .36rem;
+}
+.recentAll p{
+    font-size: .32rem;
+    color: #333;
+    flex-grow: 1;
+}
+.recentAll span{
+    font-size: .26rem;
+    color: #333;
+}
+.recentAll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem .18rem;
+}
+.recentMain{
+    padding: 0 .18rem;
+}
+.recentMain li{
+    padding: .26rem 0 .23rem 0;
+    border-top: 1px solid #e0e1e3;
+}
+.recentTitle{
+    font-size: .26rem;
+    color: #333;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-spacing: normal;
+}
+.recentSinger{
+    font-size: .18rem;
+    color: #999;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-spacing: normal;
+}

@@ -1,0 +1,119 @@
+h1,ul{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #fbfcfd !important;
+}
+.mymusic{
+    line-height: 0 !important;
+}
+.myHeader{
+    padding:.32rem .27rem .22rem .34rem;
+    background: #d43c33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myHeader a{
+    font-size: .3rem;
+    color: white;
+    font-weight: bold;
+}
+.myHeader h1{
+    font-size: .34rem;
+    color: white;
+    font-weight: bolder;
+}
+.myListener{
+    display: inline-block;
+    width: .43rem;
+    height: .43rem;
+    background: url('http://127.0.0.1:3000/img/music/my_03.png');
+    background-size: 100%;
+}
+.myMain{
+    padding: 0 .2rem .3rem .4rem;
+}
+.myContent i{
+    display: inline-block;
+}
+.myContent li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myRight{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e3e4;
+    margin-left: .46rem;
+    padding: .38rem 0;
+}
+.load{
+    width: .47rem;
+    height: .47rem;
+    background: url('http://127.0.0.1:3000/img/music/my_04.png');
+    background-size: 100%;
+}
+.loadT{
+    font-size: .32rem;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+}
+.right{
+    display: inline-block;
+    width: .16rem;
+    height: .28rem;
+    background: url('http://127.0.0.1:3000/img/music/right_03.png');
+    background-size: 100%;
+}
+.recentPlay{
+    width: .48rem;
+    height: .48rem;
+    background: url('http://127.0.0.1:3000/img/music/my_06.png');
+    background-size: 100%;
+}
+.myRadio{
+    width: .48rem;
+    height: .48rem;
+    background: url('http://127.0.0.1:3000/img/music/my_09.png');
+    background-size: 100%;
+}
+.mycollection{
+    width: .48rem;
+    height: .44rem;
+    background: url('http://127.0.0.1:3000/img/music/my_11.png');
+    background-size: 100%;
+}
+/* 收藏歌单 */
+.myMusiclist{
+    background: #eeeff0;
+}
+.myMusiclist ul{
+    padding-left:.25rem;
+}
+.myleft{
+    display: inline-block;
+    width: .12rem;
+    height: .21rem;
+    background: url("http://127.0.0.1:3000/img/music/myleft_03.png");;
+    background-size: 100%;
+}
+.myMusiclist li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .18rem 0;
+}
+.myMusiclist p{
+    font-size: .22rem;
+    font-weight: bold;
+    color: #666;
+    flex-grow: 1;
+    text-align: left;
+    padding-left: .26rem;
+}

@@ -1,0 +1,128 @@
+p,h1{
+    margin: 0;
+    padding: 0;
+}
+.bj{
+    background: rgba(0, 0, 0, .8);
+    overflow-x: hidden;
+}
+.bj header{
+    background: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding: .3rem .35rem .1rem .35rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #4e4e50;
+}
+.play_title h1{
+    font-size: .26rem;
+    font-weight: bolder;
+    color: white;
+}
+.play_title p{
+    font-size: .2rem;
+    color: white;
+}
+.musicBj {
+    margin: auto;
+    margin-top: 1.48rem;
+    margin-bottom:1.38rem;
+    width: 6.1rem;
+    height: 6.1rem;
+    border-radius: 50%;
+    background: url('http://127.0.0.1:3000/img/aax.png');
+    background-size: 100%;
+    position: relative;
+    z-index: 3;
+    overflow-x: hidden;
+}
+.musicImg{
+    width: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.05rem;
+    left:1.05rem;
+}
+.movieIcon ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.1rem;
+    box-sizing: border-box;
+}
+.movieIcon i{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.collection{
+    background: url('http://127.0.0.1:3000/img/abt.png');
+    background-size: 100%;
+}
+.download{
+    background: url('http://127.0.0.1:3000/img/abj.png');
+    background-size: 100%;
+}
+.commit{
+    background: url('http://127.0.0.1:3000/img/abh.png');
+    background-size: 100%;
+}
+.share{
+    background: url('http://127.0.0.1:3000/img/aby.png');
+    background-size: 100%;
+}
+
+.moviePlay ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .35rem;
+    box-sizing: border-box;
+}
+.moviePlay i{
+    display: inline-block;
+    font-size: 0;
+}
+.type{
+    width: .54rem;
+    height: .54rem;
+    background: url('http://127.0.0.1:3000/img/s0.png');
+    background-size: 100%;
+}
+.pre{
+    width: .54rem;
+    height: .54rem;
+    background: url('http://127.0.0.1:3000/img/note_btn_pre.png');
+    background-size: 100%;
+}
+.next{
+    width: .54rem;
+    height: .54rem;
+    background: url('http://127.0.0.1:3000/img/note_btn_next.png');
+    background-size: 100%;
+}
+.stopPlay{
+    width: .9rem;
+    height: .9rem;
+    background: url('http://127.0.0.1:3000/img/note_btn_pause.png');
+    background-size: 100%;
+}
+
+.all{
+    width: .9rem;
+    height: .9rem;
+    background: url('http://127.0.0.1:3000/img/acf.png');
+    background-size: 100%;
+    margin-top: .3rem;
+}
+
+/* 图片旋转 */
+
+@keyframes rotate-disk{
+    100%{transform: rotateZ(360deg)}
+}
+#musicBj{
+    animation: rotate-disk 20s infinite normal linear;
+}
